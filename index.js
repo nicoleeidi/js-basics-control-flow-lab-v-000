@@ -2,9 +2,9 @@
 scuberGreetingForFeet(feet){
   if feet <= 400
     return "This one is on me!"
-  elsif feet > 2000
+  else if feet > 2000
     return "I will gladly take your thirty bucks."
-  elsif feet > 2500
+  else if feet > 2500
     return "No can do."
   end
 
@@ -18,11 +18,15 @@ ternaryCheckCity(city){
   end
 }
 switchOnCharmFromTip(tip){
-  if tip === "generous"
-    return 'Thank you so much.'
-  elsif tip === "not as generous"
-    return "Thank you." 
-  else 
-    return "Bye."
-  end 
+  switch (tip)
+  case "generous":
+  'Thank you so much.'
+  break;
+  case "not as generous":
+  "Thank you"
+  break;
+  default: 
+  "Bye."
+  break; 
+
 }
