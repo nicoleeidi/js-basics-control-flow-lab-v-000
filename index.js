@@ -10,7 +10,7 @@ function scuberGreetingForFeet(feet) {
     return "I will gladly take your thirty bucks."
   }
 
-  
+
 }
 
 
@@ -28,7 +28,7 @@ function switchOnCharmFromTip(tip){
     return 'Thank you so much.'
     break;
     case "not as generous":
-    return"Thank you"
+    return"Thank you."
     break;
     default:
     return"Bye."
