@@ -1,5 +1,5 @@
 // Write your code in this file!
-let scuberGreetingForFeet
+function scuberGreetingForFeet(feet) {
   if (feet <= 400){
     scuberGreetingForFeet= "This one is on me!"
   }
@@ -11,21 +11,16 @@ let scuberGreetingForFeet
   else if (feet > 2500) {
     scuberGreetingForFeet= "No can do."
   }
-
-
-
-
 }
-let ternaryCheckCity;
-  if (){
+
+
+function ternaryCheckCity(city);
+  {
     city === "NYC"? "Ok, sounds good." : "No go."
   }
 
-  else{
-    ternaryCheckCity= 
-  }
-
-let switchOnCharmFromTip
+  
+function switchOnCharmFromTip(tip){
   switch (tip) {
     case "generous":
     switchOnCharmFromTip= 'Thank you so much.'
@@ -37,3 +32,5 @@ let switchOnCharmFromTip
     switchOnCharmFromTip= "Bye."
     break;
   }
+}
+  
