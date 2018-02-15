@@ -10,23 +10,23 @@ scuberGreetingForFeet(feet){
 
 
 }
-ternaryCheckCity(city){
+let ternaryCheckCity;
   if city === "NYC"
-    return "Ok, sounds good."
+    ternaryCheckCity= "Ok, sounds good."
   else
-    return "No go."
+    ternaryCheckCity= "No go."
   end
 }
-switchOnCharmFromTip(tip){
+let switchOnCharmFromTip
   switch (tip) {
     case "generous":
-    'Thank you so much.'
+    switchOnCharmFromTip= 'Thank you so much.'
     break;
     case "not as generous":
-    "Thank you"
+    switchOnCharmFromTip= "Thank you"
     break;
     default:
-    "Bye."
+    switchOnCharmFromTip= "Bye."
     break;
   }
 
